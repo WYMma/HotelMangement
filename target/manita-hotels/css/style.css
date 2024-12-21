@@ -1,0 +1,135 @@
+/* Custom styles for Hotel Management System */
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar customization */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Card customization */
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Form styles */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+    border-color: #004494;
+}
+
+/* Table styles */
+.table {
+    background-color: white;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Alert customization */
+.alert {
+    border: none;
+    border-radius: 0.25rem;
+}
+
+/* Dashboard stats */
+.stats-card {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+    color: white;
+}
+
+/* Hotel rating stars */
+.hotel-stars {
+    color: #ffc107;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Login page specific styles */
+.login-container {
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+/* Error pages */
+.error-page {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.error-page .display-1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Custom badges */
+.badge {
+    padding: 0.5em 0.75em;
+}
+
+/* Custom shadows */
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+/* Custom transitions */
+.transition {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Custom borders */
+.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Custom margins */
+.mt-6 {
+    margin-top: 4rem;
+}
+
+.mb-6 {
+    margin-bottom: 4rem;
+}
